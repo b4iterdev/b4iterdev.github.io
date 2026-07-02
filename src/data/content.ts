@@ -1,19 +1,21 @@
 export const siteConfig = {
   name: "Nguyen Minh Thai",
-  email: "thaimeo200389@gmail.com",
+  email: "b4iterdev@gmail.com",
   role: "Creative Technologist",
-  description: "Building cinematic interfaces, real-time systems, and practical tools across product, media, and infrastructure.",
+  description:
+    "Building cinematic interfaces, real-time systems, and practical tools across product, media, and infrastructure.",
   socials: {
     github: "https://github.com/b4iterdev",
     twitter: "https://twitter.com/b4iterdev",
-  }
+  },
 };
 
 export const featuredWork = [
   {
     id: "notunes-improved",
     title: "noTunesImproved",
-    description: "A polished macOS menu bar utility to prevent Apple Music from launching automatically.",
+    description:
+      "A polished macOS menu bar utility to prevent Apple Music from launching automatically.",
     tags: ["macOS", "Swift", "Utility"],
     year: "2026",
     url: "https://github.com/b4iterdev/noTunesImproved",
@@ -29,7 +31,8 @@ export const featuredWork = [
   {
     id: "nrc-camera",
     title: "NRCCameraService & nrc-webrtc-player",
-    description: "Low-latency Android camera streaming and playback tooling for live media workflows.",
+    description:
+      "Low-latency Android camera streaming and playback tooling for live media workflows.",
     tags: ["Android", "C++", "Streaming"],
     year: "Recent",
     url: "https://github.com/b4iterdev/NRCCameraService",
@@ -74,14 +77,16 @@ export const experience = [
     role: "Creative Technologist",
     company: "Independent",
     period: "2020 - Present",
-    description: "Developing high-performance utilities, broadcast tools, and cinematic web experiences.",
+    description:
+      "Developing high-performance utilities, broadcast tools, and cinematic web experiences.",
   },
   {
     id: "exp-2",
     role: "Systems Developer",
     company: "Open Source",
     period: "2021 - Present",
-    description: "Contributed to game infrastructure, low-latency streaming, and computer vision pipelines.",
+    description:
+      "Contributed to game infrastructure, low-latency streaming, and computer vision pipelines.",
   },
 ];
 
