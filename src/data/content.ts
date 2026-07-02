@@ -1,9 +1,9 @@
 export const siteConfig = {
   name: "Nguyen Minh Thai",
   email: "b4iterdev@gmail.com",
-  role: "Creative Technologist",
+  role: "Software Engineer",
   description:
-    "Building cinematic interfaces, real-time systems, and practical tools across product, media, and infrastructure.",
+    "Building slick interfaces, real-time systems, and practical tools across product, media, and infrastructure.",
   socials: {
     github: "https://github.com/b4iterdev",
     twitter: "https://twitter.com/b4iterdev",
@@ -25,24 +25,25 @@ export const featuredWork = [
     title: "valo-map-veto & valo-veto-nodecg",
     description: "Valorant esports broadcast workflow and map veto system.",
     tags: ["NodeCG", "Esports", "Broadcast"],
-    year: "2026",
+    year: "2025",
     url: "https://github.com/b4iterdev/valo-map-veto",
   },
   {
     id: "nrc-camera",
-    title: "NRCCameraService & nrc-webrtc-player",
+    title: "NRCCameraService",
     description:
-      "Low-latency Android camera streaming and playback tooling for live media workflows.",
-    tags: ["Android", "C++", "Streaming"],
-    year: "Recent",
+      "Low-latency Android camera streaming system designed to be ultra low-latency (~130ms).",
+    tags: ["Android", "C++ NDK", "Streaming"],
+    year: "2025-2026",
     url: "https://github.com/b4iterdev/NRCCameraService",
   },
   {
     id: "xash-meta",
-    title: "XashMetaPUG & XashDS-arm64",
-    description: "Game infrastructure and ARM64 server tooling for Xash3D.",
-    tags: ["C++", "ARM64", "Docker"],
-    year: "Recent",
+    title: "XashMetaPUG",
+    description:
+      "Scrimmage & PUG match organizer for CS1.6-Xash3D, designed to be run on any arch including ARM64.",
+    tags: ["C++", "ARM64", "Game Scriping", "Metamod"],
+    year: "2026",
     url: "https://github.com/b4iterdev/XashMetaPUG",
   },
   {
@@ -74,19 +75,19 @@ export const featuredWork = [
 export const experience = [
   {
     id: "exp-1",
-    role: "Creative Technologist",
-    company: "Independent",
+    role: "Tech Hobbyist",
+    company: "Open Source",
     period: "2020 - Present",
     description:
-      "Developing high-performance utilities, broadcast tools, and cinematic web experiences.",
+      "Developing solutions, contributed to everything that I'm interested in.",
   },
   {
     id: "exp-2",
-    role: "Systems Developer",
-    company: "Open Source",
-    period: "2021 - Present",
+    role: "Camera System Developer Volunteer",
+    company: "STEAM for Vietnam",
+    period: "2025 - Present",
     description:
-      "Contributed to game infrastructure, low-latency streaming, and computer vision pipelines.",
+      "Developed low-latency streaming architecture, pipelines and design / optimize hardware for robotics competition.",
   },
 ];
 
